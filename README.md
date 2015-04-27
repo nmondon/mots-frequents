@@ -8,4 +8,3 @@ Liste des 1500 mots les plus fréquents de la langue français
 
 
 [éduscol]: http://eduscol.education.fr/cid50486/liste-de-frequence-lexicale.html
-[node-csv]: https://github.com/wdavidw/node-csv
