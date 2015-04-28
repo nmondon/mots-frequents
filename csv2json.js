@@ -15,7 +15,7 @@ var parser = parse({delimiter: ';'}, function(err, data){
         return w2.frequency - w1.frequency
     })
 
-    fs.writeFile('frequence.json', JSON.stringify(json), function(){
+    fs.writeFile('data/frequence.json', JSON.stringify(json), function(){
         process.exit(0)
     })
 
