@@ -12,7 +12,8 @@ Liste des 1500 mots les plus fréquents de la langue français
 
 ## Fichiers JSON
 
-Le fichier frequence.json est un tableau de mots, trié par fréquence, chaque mot est représenté sous cette forme :
+* Le fichier frequence.json est un tableau de mots, trié par fréquence, chaque mot est représenté sous cette forme :
+ 
  
     {
         type: [String]
@@ -20,8 +21,9 @@ Le fichier frequence.json est un tableau de mots, trié par fréquence, chaque m
         frequency: [Number]
     }
     
-En plus on trouve des fichiers contenant la liste des articles et la liste des pronoms personnels sous cette forme :
+* En plus on trouve des fichiers contenant la liste des articles et la liste des pronoms personnels sous cette forme :
       
+
     {
         type: [String]
         label: [String]
