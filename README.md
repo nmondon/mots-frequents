@@ -2,23 +2,31 @@
 Liste des 1500 mots les plus fréquents de la langue français
 
 
-# Source 
+## Source 
 
 * [éduscol] : une liste rassemblant près de 1500 mots, les plus fréquents de la langue française, a été constituée par le lexicologue Étienne Brunet
   
-# References
+## Références
     
-* [csv parser] by adaltas
+* [csv parser] par adaltas
 
-# Generated JSON file
+## Fichiers JSON
 
-The file is sorted by frequency and is an array of words as : 
+Le fichier frequence.json est un tableau de mots, trié par fréquence, chaque mot est représenté sous cette forme :
  
     {
         type: [String]
         label: [String]
         frequency: [Number]
-    ]
+    }
+    
+En plus on trouve des fichiers contenant la liste des articles et la liste des pronoms personnels sous cette forme :
+      
+    {
+        type: [String]
+        label: [String]
+    }
+      
 
 
 [éduscol]: http://eduscol.education.fr/cid50486/liste-de-frequence-lexicale.html
